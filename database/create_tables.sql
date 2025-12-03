@@ -1,3 +1,4 @@
+-- Database created using PostgreSQL (SQL)
 -- Database tables created according to the Entity-Relationship Diagram provided in this Danny’s Diner case study.
 -- Menu table containing all available products and their prices.
 
