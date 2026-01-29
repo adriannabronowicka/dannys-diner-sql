@@ -27,5 +27,18 @@ The project demonstrates practical usage of:
 - Window functions (ROW_NUMBER, RANK)
 - Filtering and grouping techniques (WHERE, GROUP BY)
 
+## 📊 Business Questions Answered
+Examples of analysis performed:
+- Total amount spent by each customer
+- Number of days each customer visited the restaurant
+- First item purchased by each customer
+- Most purchased item overall
+- Most popular item per customer
+- Purchases before and after membership
+- Loyalty points calculations
+- Bonus analysis with ranking of member purchases
 
+All SQL queries are available in the repository files.
+
+## 📁 Repository Structure
 
