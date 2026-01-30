@@ -1,6 +1,6 @@
--- The most purchased item on the menu and the number of times it was purchased by all customers.
+-- The most purchased item on the menu and the number of times it was purchased by all customers
 -- Using CTE and window function RANK()
--- Returns all items tied for the highest number of purchases.
+-- Returns all items tied for the highest number of purchases
 
 WITH ordered_items AS (
 	SELECT m.product_name,

@@ -1,4 +1,4 @@
---Total amount each customer spent
+--Total amount spent by each customer 
 
 SELECT 
 	s.customer_id, 
