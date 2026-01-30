@@ -63,3 +63,9 @@ INNER JOIN dannys_diner.menu AS m
 GROUP BY s.customer_id
 ORDER BY total_amount DESC;
 ```
+#### 📊 Result
+| customer_id | total_amount |
+|------------|-------------:|
+| A          | $76.00      |
+| B          | $74.00      |
+| C          | $36.00      |
