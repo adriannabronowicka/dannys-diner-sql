@@ -498,6 +498,6 @@ This project is part of my SQL portfolio and demonstrates practical skills in:
 - analytical thinking for business insights,
 - business-oriented SQL analysis.
   
-##📌 Author
+## 📌 Author
 Adrianna Bronowicka
 SQL & Data Analytics Portfolio Project
