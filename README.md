@@ -48,3 +48,9 @@ dannys-diner-sql/
 ├── queries/    # SQL solution files
 └── README.md   # project documentation
 ```
+## 📈 Queries & Results
+
+### 🧾 Question 1
+What is the total amount each customer spent at the restaurant?
+### 💻 SQL Query
+
