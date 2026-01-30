@@ -18,6 +18,12 @@ The case study uses three tables:
 - menu – product details and prices
 - members – customers who joined the loyalty program and their join dates
 
+All tables were created using SQL scripts located in the `database/` folder.
+
+## 🧰 Tools Used
+- SQL (PostgreSQL)
+- Git & GitHub
+
 ## 🛠 SQL Concepts Used
 The project demonstrates practical usage of:
 - JOIN operations
@@ -43,12 +49,12 @@ All SQL queries are available in the repository files.
 ## 📁 Repository Structure
 ```
 dannys-diner-sql/
-├── database/   # database schema and raw data
+├── database/   # SQL scripts to create PostgreSQL tables
 ├── images/     # images used in documentation
 ├── queries/    # SQL solution files
 └── README.md   # project documentation
 ```
-## 📈 Queries & Results
+## 📈 Business Questions
 
 ### 🧾 Question 1
 What is the total amount each customer spent at the restaurant?
@@ -482,3 +488,16 @@ ORDER BY t.customer_id, t.order_date;
 | C          | 2021-01-01 | ramen       | 12    | N      | NULL   |
 | C          | 2021-01-01 | ramen       | 12    | N      | NULL   |
 | C          | 2021-01-07 | ramen       | 12    | N      | NULL   |
+
+## 🔍 Key Insights
+
+## 🚀 Project Purpose
+This project is part of my SQL portfolio and demonstrates practical skills in:
+- data querying and manipulation,
+- data aggregation and summarization,
+- analytical thinking for business insights,
+- business-oriented SQL analysis.
+  
+##📌 Author
+Adrianna Bronowicka
+SQL & Data Analytics Portfolio Project
