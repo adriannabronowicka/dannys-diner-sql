@@ -43,7 +43,7 @@ All SQL queries are available in the repository files.
 ## 📁 Repository Structure
 ```
 dannys-diner-sql/
-├── database/   # database schema or raw data
+├── database/   # database schema and raw data
 ├── images/     # images used in documentation
 ├── queries/    # SQL solution files
 └── README.md   # project documentation
