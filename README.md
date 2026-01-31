@@ -504,5 +504,5 @@ This project is part of my SQL portfolio and demonstrates practical skills in:
 - business-oriented SQL analysis.
   
 ## 📌 Author
-Adrianna Bronowicka
+**Adrianna Bronowicka**
 SQL & Data Analytics Portfolio Project
