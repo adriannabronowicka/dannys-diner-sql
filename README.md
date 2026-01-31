@@ -420,6 +420,22 @@ LEFT JOIN dannys_diner.members AS mb
 - Rank customer purchases made after joining the loyalty program
 - Only member orders receive a ranking; non-member orders remain NULL
 #### 💻 SQL Query
+####📝 Note on solution logic
+
+This solution ranks only purchases made *after* customers joined the loyalty program.  
+To achieve this, a separate dataset (`member_orders`) was created to isolate member purchases and apply ranking exclusively to those records.
+
+Duplicate rows were removed before ranking because the sales table does not contain a unique order identifier.  
+Without removing duplicates, the same purchase would be ranked multiple times.  
+When the ranked member orders are later joined back to the full dataset, this would result in a many-to-many join, causing identical orders to appear multiple times in the final output.
+
+Since duplicate rows represent the same purchase event, they should receive the same rank.  
+Removing duplicates ensures that each purchase is ranked only once and prevents duplicated results after the join.
+
+Finally, the ranked member orders were joined back to the full dataset so that:
+- member purchases receive a ranking,
+- non-member purchases remain `NULL` in the ranking column.
+
 ``` sql
 -- Create a temporary table with all sales including member status
 -- Flag orders as 'Y' if after joining the loyalty program, 'N' otherwise
