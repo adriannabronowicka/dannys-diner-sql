@@ -420,7 +420,7 @@ LEFT JOIN dannys_diner.members AS mb
 - Rank customer purchases made after joining the loyalty program
 - Only member orders receive a ranking; non-member orders remain NULL
 #### 💻 SQL Query
-####📝 Note on solution logic
+#### 📝 Note on solution logic
 
 This solution ranks only purchases made *after* customers joined the loyalty program.  
 To achieve this, a separate dataset (`member_orders`) was created to isolate member purchases and apply ranking exclusively to those records.
