@@ -511,6 +511,10 @@ ORDER BY t.customer_id, t.order_date;
 | C          | 2021-01-07 | ramen       | 12    | N      | NULL   |
 
 ## 🔍 Key Insights
+- Ramen is the most frequently purchased menu item overall.
+- Customer A spent the most.
+- Customer B visited the restaurant most often.
+- 
 
 ## 🚀 Project Purpose
 This project is part of my SQL portfolio and demonstrates practical skills in:
