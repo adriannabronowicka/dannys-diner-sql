@@ -129,6 +129,11 @@ ORDER BY fo.customer_id;
 ### 🧾 Question 4
 What is the most purchased item on the menu and how many times was it purchased by all customers?
 #### 💻 SQL Query
+#### 📝 Note on solution approach
+Two approaches are shown:
+- The first solution uses `LIMIT` and returns only one top item, even in case of ties.
+- The second solution uses a CTE with `RANK()` to return all items tied for the highest number of purchases.
+
 ##### 🔹 1st version of the solution 
 ``` sql
 -- Using LIMIT clause
