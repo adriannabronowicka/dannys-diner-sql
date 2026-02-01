@@ -512,9 +512,12 @@ ORDER BY t.customer_id, t.order_date;
 
 ## 🔍 Key Insights
 - Ramen is the most frequently purchased menu item overall.
-- Customer A spent the most.
-- Customer B visited the restaurant most often.
-- 
+- Customer A generated the highest total spend.
+- Customer B visited the restaurant most frequently.
+- Customers show strong repeat-purchase behavior, frequently ordering the same items.
+- Joining the loyalty program did not significantly change product preferences.
+- Promotional rules have a strong impact on loyalty points earned.
+- Accurate analysis requires careful handling of duplicate records due to the lack of a unique order identifier.
 
 ## 🚀 Project Purpose
 This project is part of my SQL portfolio and demonstrates practical skills in:
