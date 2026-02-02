@@ -129,7 +129,7 @@ ORDER BY fo.customer_id;
 ### 🧾 Question 4
 What is the most purchased item on the menu and how many times was it purchased by all customers?
 #### 💻 SQL Query
-#### Note on solution approach
+
 Two approaches are shown:
 - The first solution uses `LIMIT` and returns only one top item, even in case of ties.
 - The second solution uses a CTE with `RANK()` to return all items tied for the highest number of purchases.
@@ -420,7 +420,6 @@ LEFT JOIN dannys_diner.members AS mb
 - Rank customer purchases made after joining the loyalty program
 - Only member orders receive a ranking; non-member orders remain NULL
 #### 💻 SQL Query
-#### Note on solution logic
 
 This solution ranks only purchases made *after* customers joined the loyalty program.  
 To achieve this, a separate dataset (`member_orders`) was created to isolate member purchases and apply ranking exclusively to those records.
