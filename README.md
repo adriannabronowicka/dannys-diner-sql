@@ -134,7 +134,7 @@ Two approaches are shown:
 - The first solution uses `LIMIT` and returns only one top item, even in case of ties.
 - The second solution uses a CTE with `RANK()` to return all items tied for the highest number of purchases.
 
-##### 🔹 1st version of the solution 
+#### 🔹 1st version of the solution 
 ``` sql
 -- Using LIMIT clause
 -- Returns a single most purchased item
@@ -148,7 +148,7 @@ GROUP BY m.product_name
 ORDER BY number_of_orders DESC
 LIMIT 1;
 ```
-##### 🔹 2nd version of the solution 
+#### 🔹 2nd version of the solution 
 ``` sql
 -- Using CTE and window function RANK()
 -- Returns all items tied for the highest number of purchases
