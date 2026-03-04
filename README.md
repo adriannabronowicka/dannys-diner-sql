@@ -3,7 +3,7 @@
 ![Danny's Diner](images/dannys_diner.png)
 
 ## 📌 Project Overview
-This project contains SQL solutions for the Danny's Diner case study, focused on analyzing customer behavior, sales performance, and loyalty program impact.
+This project contains SQL solutions for the Danny's Diner case study, which is part of the 8 Week SQL Challenge. It focuses on analyzing customer behavior, sales performance, and loyalty program impact.
 The goal of the analysis is to answer business questions related to:
 - customer visits and spending,
 - product popularity,
